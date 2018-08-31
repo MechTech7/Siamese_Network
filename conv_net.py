@@ -31,8 +31,6 @@ class network():
 			product *= int(value)
 		self.bridge_dims = [product, full_layer_array[0][0]]
 		
-
-		
 		self.full_conn_weights[0] = self.generate_weights_biases(self.bridge_dims, name="bridging_layer")
 
 		for j in full_layer_array:
