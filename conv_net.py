@@ -1,6 +1,8 @@
 import numpy as np
 import tensorflow as tf
 
+#this class generates a convolutional neural network with ReLU activations for hidden layers and linear activation for the final layer
+
 #conv_layer array: list of lists containing dimensions of convolutional filters (ex. [3, 3, 1, 4] defines a convolutional filter of width and height 3 that takes an input image with one channel and outputs an image with 4 channels)
 #full_layer_array: list of lists containing dimensions of fully connected layers (ex. [500, 300] defines a layer that takes a tensor of size (x, 500) as an input and outputs a tensor of (x, 400))
 #input_dims: list defining the dimensions of one example of the convolutional network's input data ([width, height, channels])
